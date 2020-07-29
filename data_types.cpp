@@ -1,6 +1,15 @@
 #include <iostream>
 
 
+int strings()
+{
+  char name[] = "jos";
+
+  std::cout << name;
+
+  return 0;
+}
+
 
 int arrays()
 {
@@ -21,10 +30,6 @@ int arrays()
   {
     std::cout << array[x];
   }
-
-
-
-
 
 
   std::string string_array[] = {"cat", "dogs"};

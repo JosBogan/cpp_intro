@@ -5,9 +5,11 @@
 int main()
 {
 
-  pointers_and_references();
+  // pointers_and_references();
 
-  arrays();
+  // arrays();
   
+  strings();
+
   return 0;
 }
