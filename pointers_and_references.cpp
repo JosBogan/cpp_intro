@@ -5,8 +5,8 @@
 // * COMPILING: g++ [name].cpp
 // * RUNNING: ./a.out
 
-int main() {
-
+int pointers_and_references() 
+{
 
   // ! POINTERS
   // ? Pointers point towards a memory address/location, must be assigned to a memory adress
@@ -20,10 +20,9 @@ int main() {
   std::cout << "This is the number pointer dereferenced " << *num_ref << std::endl;
   std::cout << "This is the number pointer not dereferenced (It's location) " << num_ref << std::endl;
 
-  // ! References
+  // ! REFERENCES
   // ? References work the same way that non-primative variable assigment works in Javascript.
   // ? References point to the specific space in memeory that the thing is assigned to, not the value itself.
-
 
   int ref_num = 10;
 
