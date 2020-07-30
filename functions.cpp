@@ -21,3 +21,21 @@ void static_function() {
   int* static_var = static_variable(); // ? Has be assigned as a pointer because it is recieving a memory location
   std::cout << *static_var; // ? Dereference it!
 };
+
+// ! RETURNING REFERENCE
+
+// ? Above we saw that it is possible to return a pointer/memory location of a variable, it is also possible to return a reference
+
+int test = 5;
+
+int& reference_return() {
+  return test; // ? This will return a reference to the variable ref_var
+}
+
+void reference_function() {
+  std::cout << test;
+  reference_return() = 20;
+  std::cout << test;
+
+  // std::cout << reference_return();
+}

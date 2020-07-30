@@ -42,7 +42,7 @@ int arrays()
 
   // ? Another way of looping through an array ONLY USABLE WITH C++11
 
-  // for (int x : array)
+  // for (int& x : array)
   // {
   //   std::cout << x;
   // };

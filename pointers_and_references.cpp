@@ -9,7 +9,7 @@ int pointers_and_references()
 {
 
   // ! POINTERS
-  // ? Pointers point towards a memory address/location, must be assigned to a memory adress
+  // ? Pointers point towards a memory address/location, must be assigned to a memory adress - POINTERS STORE THE MEMORY ADDRESS
 
   int number = 4;
 
