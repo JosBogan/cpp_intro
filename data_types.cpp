@@ -1,5 +1,14 @@
 #include <iostream>
 
+// ! Data Type	Meaning	Size (in Bytes)
+// int	Integer	2 or 4
+// float	Floating-point	4
+// double	Double Floating-point	8
+// char	Character	1
+// wchar_t	Wide Character	2
+// bool	Boolean	1
+// void	Empty	0
+
 
 int strings()
 {
@@ -29,7 +38,14 @@ int arrays()
   for (int x = 0; x < (sizeof(array)/sizeof(array[0])); x++) // ? divide the size of an array element buy the number of elements for arr length
   {
     std::cout << array[x];
-  }
+  };
+
+  // ? Another way of looping through an array ONLY USABLE WITH C++11
+
+  // for (int x : array)
+  // {
+  //   std::cout << x;
+  // };
 
 
   std::string string_array[] = {"cat", "dogs"};
@@ -44,6 +60,8 @@ int arrays()
   // {
   //   std::cout << array[x];
   // }
+
+
 
   return 0;
 }
