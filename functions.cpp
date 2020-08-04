@@ -1,3 +1,5 @@
+#include <iostream>
+
 // ! PROTOTYPE FUNCTIONS
 
 void proto_function(int, int);
