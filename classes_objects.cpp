@@ -67,7 +67,7 @@ void create_objects() {
 // ! OBJECTS WITH CONSTRUCTOR FUNCTIONS
 
 
-class Room_Constructor
+class Room_Constructor // ? Adding : public ..... is how to inherit from another class
 {
   public:
     // ? Constructor member method is a function that is automatically called on object creation. It has to be public and doesn't need a return type. Also has to have the same name as the class
